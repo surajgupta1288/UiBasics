@@ -23,4 +23,20 @@
     <string name="textview16">28 Aug 2018</string>
     <string name="textview17">You didnt start a program yet,these</string>
 
+    <!-- String  for mockup-2    -->
+    <string name="textview18">Enquiry</string>
+    <string name="textview19">Select Country</string>
+    <string name="textview20">Country</string>
+    <string name="textview21">Select State</string>
+    <string name="textview22">State</string>
+    <string name="textview23">Select District</string>
+    <string name="textview24">District</string>
+    <string name="textview25">Select Center</string>
+    <string name="textview26">Centre Name</string>
+    <string name="textview27">SELECT CENTRE</string>
+    <string name="textview28">Automatically Find Nearest Centre</string>
+
+
+
+
 </resources>
