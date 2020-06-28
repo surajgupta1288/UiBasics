@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#D8D0D0">
+
+
+
+    <TextView
+        android:id="@+id/tv_setupyourplan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="40dp"
+        android:text="@string/setup_plan"
+        android:textColor="#000000"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+
+    <TextView
+        android:id="@+id/tv_change_mode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_setupyourplan"
+        android:layout_alignStart="@+id/tv_setupyourplan"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="10dp"
+        android:text="@string/textview2"
+        android:textSize="15sp" />
+
+    <RelativeLayout
+        android:id="@+id/rl_setup_wizard"
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:layout_below="@+id/tv_change_mode"
+        android:layout_margin="10dp"
+        android:background="@drawable/bg_rectangle">
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="10dp"
+            android:src="@drawable/pie_chart_img" />
+
+
+        <TextView
+            android:id="@+id/tv_setupwizard"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="30dp"
+            android:text="@string/textview3"
+            android:textStyle="bold"
+            android:textColor="#ffffff"
+            android:textSize="20sp" />
+
+
+        <View
+            android:id="@+id/vw_setupwizard"
+            android:layout_width="50dp"
+            android:layout_height="2dp"
+            android:layout_below="@+id/tv_setupwizard"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="10dp"
+            android:background="#ffffff" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/vw_setupwizard"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/textview4"
+            android:textColor="#ffffff" />
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/rl_start_from_scratch"
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:layout_below="@+id/rl_setup_wizard"
+        android:layout_margin="10dp"
+        android:background="@drawable/bg_rectangl2">
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="20dp"
+            android:src="@drawable/equilizer" />
+
+
+        <TextView
+            android:id="@+id/tv_startfromscratch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="30dp"
+            android:text="@string/textview5"
+            android:textStyle="bold"
+            android:textColor="#ffffff"
+            android:textSize="20sp" />
+
+
+        <View
+            android:id="@+id/vw_startfromscratch"
+            android:layout_width="50dp"
+            android:layout_height="2dp"
+            android:layout_below="@+id/tv_startfromscratch"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="10dp"
+            android:background="#ffffff" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/vw_startfromscratch"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="10dp"
+            android:textSize="15sp"
+            android:text="@string/textview6"
+            android:textColor="#ffffff" />
+
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/rl_templates"
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:layout_below="@+id/rl_start_from_scratch"
+        android:layout_margin="10dp"
+        android:background="@drawable/bg_rectangle3">
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="10dp"
+            android:src="@drawable/pie_chart_img" />
+
+
+        <TextView
+            android:id="@+id/tv_template"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="30dp"
+            android:text="@string/textview7"
+            android:textStyle="bold"
+            android:textColor="#ffffff"
+            android:textSize="20sp" />
+
+
+        <View
+            android:id="@+id/vw_template"
+            android:layout_width="50dp"
+            android:layout_height="2dp"
+            android:layout_below="@+id/tv_template"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="10dp"
+            android:background="#ffffff" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/vw_template"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/textview4"
+            android:textSize="15sp"
+            android:textColor="#ffffff" />
+
+
+    </RelativeLayout>
+
+
+</RelativeLayout>
