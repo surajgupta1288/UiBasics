@@ -36,7 +36,20 @@
     <string name="textview27">SELECT CENTRE</string>
     <string name="textview28">Automatically Find Nearest Centre</string>
 
+    <!-- String  for mockup-1   -->
 
-
+    <string name="t1">Google Play</string>
+    <string name="t2">APPS</string>
+    <string name="t3">MOVIES AND TV</string>
+    <string name="t4">BOOKS</string>
+    <string name="t5">GAMES</string>
+    <string name="t6">MUSIC</string>
+    <string name="t7">NEWSSTAND</string>
+    <string name="t8">New + Update Games</string>
+    <string name="t9">MORE</string>
+    <string name="t10">Monster\t Legends</string>
+    <string name="t11">Mighty\nSmightie</string>
+    <string name="t12">Marvel\nContestof</string>
+    <string name="t13">Popular Apps + Games</string>
 
 </resources>
